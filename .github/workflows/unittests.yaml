@@ -14,3 +14,5 @@ jobs:
         run: pip install -r requirements.txt 
       - name: Run Tests 1
         run: python -m pytest
+      - name: Print yolo
+        run: echo "my build succeeded yoloo"
