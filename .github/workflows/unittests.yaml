@@ -12,5 +12,5 @@ jobs:
           architecture: x64
       - name: Install dependencies
         run: pip install -r requirements.txt 
-      - name: Run Tests
+      - name: Run Tests 1
         run: python -m pytest
