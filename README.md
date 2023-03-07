@@ -18,6 +18,11 @@ python -m pytest
 ```
 python app.py
 ```
+5. Output yolo to console.
+```
+- name: Print yolo
+  run: echo "my build succeeded: yoloo"
+```
 
 ## Code Description
 
